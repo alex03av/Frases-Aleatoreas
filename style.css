@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  transition: all 1s;
+}
+
+.cuerpo,
+.bckg {
+  background-color: rgb(245, 6, 66);
+  color: rgb(245, 6, 66);
+}
+.colorFondo1,
+.cartel1 {
+  background-color: salmon;
+  color: salmon;
+}
+.colorFondo3,
+.cartel3 {
+  background-color: rgb(0, 71, 153);
+  color: rgb(0, 71, 153);
+}
+.colorFondo4,
+.cartel4 {
+  background-color: rgb(4, 211, 194);
+  color: rgb(4, 211, 194);
+}
+.colorFondo5,
+.cartel5 {
+  background-color: rgb(39, 38, 88);
+  color: rgb(39, 38, 88);
+}
+.colorFondo6,
+.cartel6 {
+  background-color: rgb(193, 72, 230);
+  color: rgb(193, 72, 230);
+}
+.colorFondo7,
+.cartel7 {
+  background-color: rgb(214, 67, 99);
+  color: rgb(214, 67, 99);
+}
+.colorFondo8,
+.cartel8 {
+  background-color: firebrick;
+  color: firebrick;
+}
+.colorFondo9,
+.cartel9 {
+  background-color: navajowhite;
+  color: navajowhite;
+}
+.colorFondo10,
+.cartel10 {
+  background-color: yellowgreen;
+  color: yellowgreen;
+}
+.colorFondo11,
+.cartel11 {
+  background-color: darkgray;
+  color: darkgray;
+}
+.colorFondo12,
+.cartel12 {
+  background-color: rosybrown;
+  color: rosybrown;
+}
+.colorFondo13,
+.cartel13 {
+  background-color: cornflowerblue;
+  color: cornflowerblue;
+}
+.colorFondo14,
+.cartel14 {
+  background-color: lightcoral;
+  color: lightcoral;
+}
+.colorFondo15,
+.cartel15 {
+  background-color: royalblue;
+  color: royalblue;
+}
+.colorFondo16,
+.cartel16 {
+  background-color: tomato;
+  color: tomato;
+}
+.colorFondo17,
+.cartel17 {
+  background-color: rgb(128, 115, 0);
+  color: rgb(128, 115, 0);
+}
+.colorFondo18,
+.cartel18 {
+  background-color: rgb(0, 128, 17);
+  color: rgb(0, 128, 17);
+}
+.colorFondo19,
+.cartel19 {
+  background-color: rgba(243, 7, 117, 0.918);
+  color: rgb(243, 7, 117, 0.918);
+}
+.colorFondo20,
+.cartel20 {
+  background-color: rgb(226, 145, 99);
+  color: rgb(226, 145, 99);
+}
+.colorFondo21,
+.cartel21 {
+  background-color: rgb(247, 62, 62);
+  color: rgb(247, 62, 62);
+}
+.colorFondo22,
+.cartel22 {
+  background-color: rgb(73, 122, 118);
+  color: rgb(73, 122, 118);
+}
+.colorFondo23,
+.cartel23 {
+  background-color: rgb(130, 233, 109);
+  color: rgb(130, 233, 109);
+}
+.colorFondo24,
+.cartel24 {
+  background-color: rgb(241, 239, 105);
+  color: rgb(241, 239, 105);
+}
+.colorFondo25,
+.cartel25 {
+  background-color: rgb(157, 108, 248);
+  color: rgb(157, 108, 248);
+}
+
+#quote-box {
+  background-color: rgb(255, 255, 255);
+  padding: 15px 15px 25px 15px;
+  width: 600px;
+  height: 180px;
+  margin: 10% auto;
+}
+.display {
+  height: 80%;
+  padding: 5px 15px;
+}
+
+.redes .red {
+  font-size: 20px;
+  padding: 5px 13px;
+  float: left;
+}
+.redes .red img {
+  width: 30px;
+  height: 30px;
+}
+#new-quote {
+  margin: 6px 10px 0 10px;
+  border: none;
+  float: right;
+  font-size: 15px;
+  padding: 8px;
+  color: rgb(255, 255, 255) !important;
+  cursor: pointer;
+}
+#text {
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: inline;
+  line-height: 35px;
+}
+#author {
+  float: right;
+  margin-top: 20px;
+}
+.comillas {
+  font-size: 40px;
+  display: inline;
+  font-family: cursive;
+}
+
+.titulo {
+  background: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 30px;
+  padding: 25px;
+}
+.titulo hr {
+  height: 5px;
+  border-radius: 100%;
+  width: 90%;
+  margin: auto;
+  border-width: 0;
+  color: rgb(0, 0, 0);
+  background-color: rgba(236, 245, 255, 0.918);
+  margin-top: 10px;
+}
+
+@media (max-width: 730px) {
+  #quote-box {
+    width: 320px;
+  }
+  #text {
+    font-size: 13px;
+  }
+  #author {
+    margin-top: 15px;
+  }
+}
